@@ -611,7 +611,8 @@ nav.main-menu > ul li:last-child {
 
 .site-logo {
   float: left;
-  max-width: 150px;
+  padding-top: 10px;
+  max-width: 250px;
 }
 
 ul.sub-menu li:last-child {
@@ -1590,11 +1591,11 @@ div.owl-controls, .owl-controls div {
 
 ----------------------------------------------------------------------------- */
 .news-bg-1 {
-  background-image: url(../img/latest-news/news-bg-1.jpg);
+  background-image: url(../img/technician.jpeg);
 }
 
 .news-bg-2 {
-  background-image: url(../img/latest-news/news-bg-2.jpg);
+  background-image: url(../img/offer.jpeg);
 }
 
 .news-bg-3 {
