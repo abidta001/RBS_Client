@@ -51,7 +51,7 @@
 						<!-- logo -->
 						<div class="site-logo">
 							<a href="index.html">
-								<img src="assets/img/logo.png" alt="">
+								<img src="assets/img/banner_main.png" alt="">
 							</a>
 						</div>
 						<!-- logo -->
@@ -151,11 +151,11 @@
 				<div class="col-lg-8 mb-5 mb-lg-0">
 					<div class="form-title">
 						<h2>Have you any question?</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, ratione! Laboriosam est, assumenda. Perferendis, quo alias quaerat aliquid. Corporis ipsum minus voluptate? Dolore, esse natus!</p>
+						<p>Find answers to common questions or ask your own. We’re here to help!</p>
 					</div>
 				 	<div id="form_status"></div>
 					<div class="contact-form">
-						<form type="POST" id="fruitkha-contact" onSubmit="return valid_datas( this );">
+						<form type="POST" id="fruitkha-contact" action="send_email.php" onSubmit="return valid_datas(this);">
 							<p>
 								<input type="text" placeholder="Name" name="name" id="name">
 								<input type="email" placeholder="Email" name="email" id="email">
@@ -304,6 +304,8 @@
 	<script src="assets/js/form-validate.js"></script>
 	<!-- main js -->
 	<script src="assets/js/main.js"></script>
+	<!-- Form submission -->
+	
 	
 </body>
 </html>
