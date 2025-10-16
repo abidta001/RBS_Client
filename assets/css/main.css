@@ -1315,14 +1315,18 @@ ul.product-share li:hover a {
 }
 
 .single-product-item {
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 380px;            /* fixed card height */
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 10px;
   transition: 0.3s;
 }
 
 .single-product-item:hover {
-  -webkit-box-shadow: none;
-  box-shadow: none;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
 
 .search-bar-tablecell button[type=submit] {
@@ -2412,10 +2416,11 @@ ul.social-link-team li a {
 }
 
 .product-image img {
-  width: 90%;
-  border-radius: 5px;
-  margin-bottom: 20px;
+  width: 100%;
+  height: 200px;            /* make image height uniform */
+  object-fit: contain;      /* or 'cover' depending on how you want it */
 }
+
 
 .single-product-item h3 {
   font-size: 20px;
@@ -2718,12 +2723,11 @@ table.order-details tbody td {
 }
 
 .single-product-item {
-  -webkit-box-shadow: 0 0 20px #e4e4e4;
-  box-shadow: 0 0 20px #e4e4e4;
-  padding-bottom: 50px;
-  border-radius: 5px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-
 /* -----------------------------------------------------------------------------
 
 # 404 Page Styles
